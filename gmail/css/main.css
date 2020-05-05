@@ -35,7 +35,7 @@ input{
 #numeromail{
   margin-top: 20px;
   border-bottom: 2px solid grey;
-  padding-bottom: 15px
+  padding-bottom: 15px;
 }
 
 #notifica{
@@ -45,17 +45,17 @@ input{
    background-color: orange;
 }
 
-.lette {
-  background-color: lightgrey;
+.mail {
   margin: 2px;
   padding-left: 5px;
 }
 
 .nonlette{
   background-color: white;
-  margin: 2px;
-  padding-left: 5px;
+}
 
+.lette{
+  background-color: lightgrey;
 }
 
 main{
