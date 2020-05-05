@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#riquadro{
+  width: 80%;
+  margin-left: 60px
+}
+
+body{
+  background-image: url("https://image.freepik.com/free-photo/dark-brown-wood-background_44621-153.jpg");
+  background-size: 100%;
+}
+
+header{
+  border-bottom: 3px solid white
+}
+
+#logo {
+  vertical-align: middle;
+  height: 100px;
+}
+
+span{
+  color: white;
+  font-size: 20px;
+}
+
+input{
+  margin-top: 10px
+}
+
+#numeromail{
+  margin-top: 20px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 15px
+}
+
+#notifica{
+   border-radius: 100px;
+   margin: auto;
+   padding: 10px;
+   background-color: orange;
+}
+
+.lette {
+  background-color: lightgrey;
+  margin: 2px;
+  padding-left: 5px;
+}
+
+.nonlette{
+  background-color: white;
+  margin: 2px;
+  padding-left: 5px;
+
+}
+
+main{
+  margin-top: 8px;
+  border-bottom: 3px solid grey;
+  padding-bottom: 6px
+}
+
+footer{
+  text-align: center;
+  color: white;
+  padding-top: 6px;
+  font-size: 20px
+}
+
+#utente{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.testo{
+  color: grey;
+  font-size: 15px;
+  font-weight: normal;
+}

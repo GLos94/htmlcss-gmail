@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!-- questo è il contenitore che dà i giusti margini -->
+      <div id="riquadro">
+        <!-- questa è l'intestazione -->
+          <header>
+            <img id="logo" src="img/gmail.png" alt="logo gmail">
+            <span>Gmail</span>
+          </header>
+
+        <!-- questa è la sezione dell'intestazione con la barra di ricerca -->
+            <input type="text" name="text" value="Search">
+            <button type="button" name="button">VAI</button>
+
+            <!-- questa è la sezione dell'intestazione con il numero di mail  -->
+              <div id="numeromail">
+                <span>You have</span>
+                <span id="notifica">30</span>
+                <span>unread</span>
+              </div>
+
+    <!-- questo è il corpo principale -->
+      <main>
+        <article class="lette">
+          <input type="checkbox" name="seleziona" value=""> <strong>&bigstar; Oggetto della email</strong>
+          <span class="testo"> &dash; testo della email&hellip;</span>
+        </article>
+
+        <article class="nonlette">
+          <input type="checkbox" name="seleziona" value=""> <strong>&bigstar; Oggetto della email</strong>
+          <span class="testo"> &dash; testo della email&hellip;</span>
+        </article>
+
+        <article class="lette">
+          <input type="checkbox" name="seleziona" value=""> <strong>&bigstar; Oggetto della email</strong>
+          <span class="testo"> &dash; testo della email&hellip;</span>
+        </article>
+
+        <article class="lette">
+          <input type="checkbox" name="seleziona" value=""> <strong>&bigstar; Oggetto della email</strong>
+          <span class="testo"> &dash; testo della email&hellip;</span>
+        </article>
+      </main>
+
+    <!-- questo è il footer -->
+    <footer><strong>GMail</strong>
+      <span id="utente"><em>powered by Giulia</em></span>
+    </footer>
+      </div>
+  </body>
+</html>
